@@ -1,0 +1,32 @@
+/* HistoricalDataTable.module.css */
+
+.table {
+    margin: auto; /* Center the table */
+    max-width: 600px; /* Limit the width of the table */
+    font-family: Arial, sans-serif;
+    border-collapse: collapse; /* Collapse borders */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Box shadow */
+   }
+   
+   .header {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+   }
+   
+   .cell {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px;
+   }
+   
+   /* Zebra striping for rows */
+   .cell:nth-child(even) {
+    background-color: #f2f2f2;
+   }
+   
+   /* Styling for table headers */
+   .header .cell {
+    font-weight: bold;
+    color: #333;
+   }
+   
